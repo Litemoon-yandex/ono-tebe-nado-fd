@@ -1,1 +1,162 @@
-/* место для вашего кода */
+.header
+{
+    height: 293px;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+}
+.menu
+{
+    display: flex;
+    align-self: center;
+    margin-left: 50px;
+}
+
+.header__links-list
+{
+    display: flex;
+    gap: 33px;
+    line-height: 100%;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    list-style: circle;
+}
+.header__links-list-item_no-bullit
+{
+    list-style-type: none;
+}
+
+.header__links-list-item
+{
+    list-style: circle;
+}
+
+.header__link
+{
+    text-underline-offset: 4px;
+    text-decoration-thickness: 0px;
+
+}
+
+.header-logo
+{
+    display: flex;
+    align-items: center;
+}
+
+.header_logo_img
+{
+    width: 136px;
+}
+
+.address
+{
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: flex-start;
+    margin: 0px 50px 0px auto;
+    text-underline-offset: 4px;
+}
+
+.address_header_link
+{
+    text-decoration-thickness: 0px;
+}
+
+.header_address
+{
+   max-width: 240px;
+}
+
+.cover
+{
+    position: relative;
+    min-height: 757px;
+    background-image: url("/Users/Litemoon_/dev/ono-tebe-nado-fd/images/cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.overlay
+{
+    inset: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+}
+
+.cover_title
+{
+    font-size: 100px;
+    line-height: 115px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    margin: 165px -30px 106px 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.aligned-text
+{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.aligned-text_left
+{
+    text-align: start;
+}
+
+.letter-spacing-extended
+{    
+    letter-spacing: 0.3em;
+}
+
+.aligned-text_center
+{
+    text-align: center;
+}
+
+.aligned-text_right
+{
+    text-align: end;
+}
+
+.cover__description
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px 0px;
+}
+
+.cover__description-text
+{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: white;
+    word-spacing: 0.85em;
+    align-self: center;
+
+}
+
+.bet-button
+{   
+    width: 256px;
+    height: 51px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 100%;
+    background: transparent;
+    text-transform: uppercase;
+    color: white;
+    border-color: white;
+    border-style: solid;
+}
