@@ -297,7 +297,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 0px 50px;
+  margin: 0px 50px 84px;
 }
 
 .footer_address_link {
